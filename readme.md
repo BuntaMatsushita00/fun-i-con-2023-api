@@ -1,5 +1,23 @@
-# How to start
-- docker-compose build
-- docker-compose run --entrypoint "poetry install --no-root" demo-app
-- docker-compose build --no-cache
-- docker-compose up
+# fun-i-con 2023 API
+
+バックエンド班　勉強用
+![]("https://zenn.dev/sh0nk/books/537bb028709ab9")
+
+# 初回の操作
+'''shell
+docker-compose build
+'''
+'''shell
+docker-compose run --entrypoint "poetry install --no-root" demo-app
+'''
+'''shell
+docker-compose build --no-cache
+'''
+'''shell
+docker-compose up
+'''
+
+# 二回目以降
+'''shell
+docker-compose up
+'''
