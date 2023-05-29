@@ -21,6 +21,10 @@ docker-compose build --no-cache
 docker-compose up
 ```
 
+``` shell
+docker-compose exec demo-app poetry run python -m api.migrate_db
+```
+
 # 二回目以降
 ``` shell
 docker-compose up
